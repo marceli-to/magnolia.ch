@@ -51,11 +51,11 @@ sup {
 
 /* Badge */
 .badge {
-  @apply bg-pine p-6 lg:p-8 text-sm leading-none text-white inline-flex items-center justify-between rounded-sm space-x-4 mr-6 mt-6 lg:mr-12 lg:mt-12 last-of-type:mr-0 cursor-pointer hover:bg-sage transition-all
+  @apply bg-pine px-6 lg:px-8 pt-10 pb-8 text-sm !leading-none text-white inline-flex items-center justify-between space-x-4 mr-5 mt-5 lg:mr-10 lg:mt-10 last-of-type:mr-0 cursor-pointer hover:bg-sage transition-all
 }
 
 .badge svg {
-  @apply w-12 h-12 ml-6 block
+  @apply size-12 ml-10 -mt-2 block
 }
 
 
