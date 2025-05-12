@@ -13,3 +13,4 @@ import './modules/iso.js';
 import './modules/filter.js';
 import './modules/fancybox.js';
 import './modules/object_selector.js';
+import './modules/rellax.js';

@@ -10,6 +10,15 @@ export default defineConfig({
       fonts: resolve('resources/css/fonts')
     }
   },
+  server: {
+    cors: {
+      origin: ['https://magnolia.ch.test'],
+      credentials: true
+    },
+    hmr: {
+      host: 'localhost'
+    }
+  },
   plugins: [
       laravel({
           input: [
