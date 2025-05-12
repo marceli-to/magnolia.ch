@@ -1,0 +1,16 @@
+<div class="mb-15 sm:mb-0 last-of-type:mb-0 sm:col-span-4 {{ class }}">
+  <a data-fancybox href="/assets/{{ image }}.jpg">
+    <picture>
+      <source srcset="/assets/{{ image }}-thumb.avif" type="image/avif">
+      <source srcset="/assets/{{ image }}-thumb.webp" type="image/webp">
+      <img 
+        src="{{ image }}-thumb.jpg" 
+        alt="{{ image:alt }}" 
+        title="{{ image:alt }}" 
+        height="{{ image:height }}" 
+        width="{{ image:width }}"
+        class="block w-full h-full aspect-video object-cover {{ class ?? '' }}"
+        loading="lazy">
+    </picture>
+  </a>
+</div>

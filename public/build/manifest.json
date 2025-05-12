@@ -1,0 +1,51 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-faff8e15.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/css/fonts/OakesGrotesk-Bold.woff": {
+    "file": "assets/OakesGrotesk-Bold-7089f6cc.woff",
+    "src": "resources/css/fonts/OakesGrotesk-Bold.woff"
+  },
+  "resources/css/fonts/OakesGrotesk-Bold.woff2": {
+    "file": "assets/OakesGrotesk-Bold-d4cbf612.woff2",
+    "src": "resources/css/fonts/OakesGrotesk-Bold.woff2"
+  },
+  "resources/css/fonts/OakesGrotesk-Regular.woff": {
+    "file": "assets/OakesGrotesk-Regular-ebfce6d7.woff",
+    "src": "resources/css/fonts/OakesGrotesk-Regular.woff"
+  },
+  "resources/css/fonts/OakesGrotesk-Regular.woff2": {
+    "file": "assets/OakesGrotesk-Regular-0b10599a.woff2",
+    "src": "resources/css/fonts/OakesGrotesk-Regular.woff2"
+  },
+  "resources/css/fonts/OakesGrotesk-RegularItalic.woff": {
+    "file": "assets/OakesGrotesk-RegularItalic-b7b99273.woff",
+    "src": "resources/css/fonts/OakesGrotesk-RegularItalic.woff"
+  },
+  "resources/css/fonts/OakesGrotesk-RegularItalic.woff2": {
+    "file": "assets/OakesGrotesk-RegularItalic-514fdf02.woff2",
+    "src": "resources/css/fonts/OakesGrotesk-RegularItalic.woff2"
+  },
+  "resources/icons/chevron-down.svg": {
+    "file": "assets/chevron-down-82992c9a.svg",
+    "src": "resources/icons/chevron-down.svg"
+  },
+  "resources/icons/marker.svg": {
+    "file": "assets/marker-4d3697fa.svg",
+    "src": "resources/icons/marker.svg"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-7430d6be.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "css": [
+      "assets/app-7430d6be.css"
+    ],
+    "file": "assets/app-2a815812.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}

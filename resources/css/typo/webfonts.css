@@ -1,0 +1,26 @@
+/**
+ * Typography - Webfonts
+ * -----------------------------------------------------------------------------
+ */
+
+@font-face {
+  font-family: 'Oakes-Grotesk-Bold';
+  src: url('fonts/OakesGrotesk-Bold.woff2') format('woff2'), url('fonts/OakesGrotesk-Bold.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oakes-Grotesk-Regular';
+  src: url('fonts/OakesGrotesk-Regular.woff2') format('woff2'), url('fonts/OakesGrotesk-Regular.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oakes-Grotesk-RegularItalic';
+  src: url('fonts/OakesGrotesk-RegularItalic.woff2') format('woff2'), url('fonts/OakesGrotesk-RegularItalic.woff') format('woff');
+  font-style: italic;
+  font-display: swap;
+}
+
