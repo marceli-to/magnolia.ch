@@ -39,7 +39,7 @@ export default {
         'lg': '1.25rem', // 20px
         'xl': '1.5rem', // 24px
         '2xl': '1.75rem', // 28px
-        '3xl': '2.75rem', // 44px
+        '3xl': '2.5rem', // 40px
         '4xl': '3.375rem', // 54px
         '5xl': '4rem', // 64px
       },

@@ -1,15 +1,13 @@
 const initMap = () => {
   mapboxgl.accessToken = 'pk.eyJ1IjoibWFyY2VsaXRvb29vIiwiYSI6ImNtNm1hNG5vdDBmaGUya3NoZnRldnhqd3YifQ.CMI4nKvoE7I8H9Dal7IHyw';
 
-  // get zoom from data attribute from #map element
-
   const zoom = document.getElementById('map').dataset.zoom;
 
   var map = new mapboxgl.Map({
-      container: 'map',
-      style: 'mapbox://styles/marcelitoooo/ck16ms7m51nlo1cmwnqrbjuyq?optimize=true',
-      center: [8.549060044180237,47.412181699087625], 
-      zoom: zoom
+    container: 'map',
+    style: 'mapbox://styles/marcelitoooo/ck16ms7m51nlo1cmwnqrbjuyq?optimize=true',
+    center: [8.576795782295077,47.345146618634324], 
+    zoom: zoom
   });
   map.addControl(new mapboxgl.NavigationControl());
   map.scrollZoom.disable();
@@ -20,7 +18,7 @@ const initMap = () => {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [8.549060044180237,47.412181699087625]
+        coordinates: [8.576795782295077,47.345146618634324]
       },
       properties: {
         title: 'Magnolia Rothfluhstrasse',
