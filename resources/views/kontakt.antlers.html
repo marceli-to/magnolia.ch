@@ -1,20 +1,22 @@
 {{ partial:layout/section }}
-
   {{ partial:components/media/visual image="magnolia-rothfluhstrasse-zollikon-visual-aussen-strasse" alt="" }}
-
 {{ /partial:layout/section }}
 
-{{ partial:layout/section class="bg-white" }}
-  
-  {{ partial:layout/inner class="!pb-0" }}
+{{ partial:layout/section class="bg-sage" }}
+  {{ partial:layout/inner }}
     <a name="formular" class="scroll-m-96 lg:scroll-m-144"></a>
-
-    {{ partial:components/headings/h1 title="kontakt." byline="grow. in your new home." }}
-
+    {{ partial:components/headings/h1 class="!text-white" bylineClass="!text-pine" title="kontakt." byline="grow. in your new home." }}
     <div class="max-w-3xl">
-      <p>Wir laden Sie ein, sich schon jetzt Ihre Traumwohnung zu sichern. Nutzen Sie die Chance, Teil des exklusiven Projekts magnolia. zu werden und erleben Sie, was es bedeutet, in einem der begehrtesten Orte rund um den Zürichsee zu wohnen.</p>
-      <p><strong>Kontaktieren Sie uns – wir sind gerne für Sie da.</strong><br>Gerne stehen wir für Fragen zur Verfügung und freuen uns auf Ihre Kontaktaufnahme. Auf Anfrage stellen wir Ihnen gerne die detaillierte Verkaufsdokumentation zu.</p>
+      <p class="!mb-0">Wir laden Sie ein, sich schon jetzt Ihre Traumwohnung zu sichern. Nutzen Sie die Chance, Teil des exklusiven Projekts magnolia. zu werden und erleben Sie, was es bedeutet, in einem der begehrtesten Orte rund um den Zürichsee zu wohnen.</p>
     </div>
+  {{ /partial:layout/inner }}
+{{ /partial:layout/section }}
+
+{{ partial:layout/section  }}
+  {{ partial:layout/inner class="!pb-0" }}
+  <div class="max-w-3xl">
+    <p class="!mb-0"><strong>Kontaktieren Sie uns – wir sind gerne für Sie da.</strong><br>Gerne stehen wir für Fragen zur Verfügung und freuen uns auf Ihre Kontaktaufnahme. Auf Anfrage stellen wir Ihnen gerne die detaillierte Verkaufsdokumentation zu.</p>
+  </div>
 
     {{ nocache }}
 

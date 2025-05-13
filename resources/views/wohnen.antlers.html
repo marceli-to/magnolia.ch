@@ -4,11 +4,11 @@
 
 {{ /partial:layout/section }}
 
-{{ partial:layout/section class="bg-white" }}
+{{ partial:layout/section class="bg-sage" }}
 
   {{ partial:layout/inner }}
 
-    {{ partial:components/headings/h1 title="wohnen." byline="explore. the qualities." }}
+    {{ partial:components/headings/h1 class="!text-white" bylineClass="!text-pine" title="wohnen." byline="explore. the qualities." }}
 
     <div class="md:grid md:grid-cols-12 md:gap-x-20">
       <div class="md:col-span-6">
@@ -44,8 +44,6 @@
 
   {{ partial:layout/inner class="!pb-0" }}
 
-    {{ partial:components/headings/h2 title="Visualisierungen" }}
-
     <div class="sm:grid sm:grid-cols-12 sm:gap-15 lg:gap-20">
       {{ partial:components/fancybox/item image="magnolia-rothfluhstrasse-zollikon-impressionen-wohnen-1" alt="" class="sm:col-span-6" }}
       {{ partial:components/fancybox/item image="magnolia-rothfluhstrasse-zollikon-impressionen-wohnen-2" alt="" class="sm:col-span-6" }}
@@ -58,14 +56,5 @@
     </div>
 
   {{ /partial:layout/inner }}
-
-{{ /partial:layout/section }}
-
-
-{{ partial:layout/section class="bg-sage" }}
-
-  {{ page_elements }}
-    {{ partial:elements }}
-  {{ /page_elements }}
 
 {{ /partial:layout/section }}

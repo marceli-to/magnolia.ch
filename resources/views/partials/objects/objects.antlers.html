@@ -14,7 +14,7 @@
         wohnungen.
       {{ /partial:components/headings/h2 }}
 
-      {{ partial:components/table/table class="mb-20 lg:mb-40" }}
+      {{ partial:components/table/table class="mb-20 lg:mb-40 bg-white" }}
         {{ partial:components/table/thead }}
         {{ objects }}
           {{ partial:components/table/trow filterable="true" number="{{ number }}" state="{{ state }}" rooms="{{ rooms }}" floor="{{ floor }}" building="1" }}
@@ -56,7 +56,7 @@
               {{ partial:components/table/tcell class="text-xxs sm:text-sm text-right align-middle !pr-0" }}
                 {{ if state == 'available' }}
                 <a href="/kontakt?whg={{ number }}#formular"
-                  class="text-white hover:brightness-110 bg-pine hover:bg-sage transition-all inline-flex items-center px-5 h-25 leading-none">
+                  class="text-white hover:brightness-110 bg-pine hover:bg-sage transition-all inline-flex items-center px-5 pt-5 pb-3 lg:pt-6 lg:pb-4 leading-none">
                   Anfrage
                 </a>
                 {{ elseif state == 'reserved' }}

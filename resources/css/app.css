@@ -71,10 +71,13 @@ sup {
 
 /* privacy, imprint */
 .imprint h1,
-.privacy h1,
+.privacy h1 {
+  @apply text-lg lg:text-2xl text-pine mb-15 lg:mb-30
+}
+
 .imprint h2,
 .privacy h2 {
-  @apply text-base lg:text-xl text-sage mb-10
+  @apply font-oakes-bold text-base lg:text-xl text-pine !mb-10 lg:!mb-15
 }
 
 .imprint h1,
@@ -97,7 +100,7 @@ sup {
 
 /* Fancybox */
 .fancybox__backdrop {
-  @apply !bg-black bg-opacity-50;
+  @apply !bg-pine/80;
 }
 
 .fancybox__toolbar {
