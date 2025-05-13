@@ -1,57 +1,82 @@
-<footer class="!text-sm">
+<footer class="!text-xs">
   {{ partial:layout/inner }}
-  <div class="grid grid-cols-12 gap-15 items-end">
-    <div class="col-span-2 md:col-span-1 pb-5">
-      <a 
-        href="https://www.cavegn-immobilien.ch"
-        target="_blank" 
-        title="Zur Website von Cavegn Immobilien"
-        class="text-sage">
-        {{ partial:icons/logo-marketer class="block w-auto h-100 md:h-120" }}
-      </a>
-    </div>
-    <div class="col-span-10 md:col-span-5 lg:col-span-6 sm:grid sm:grid-cols-6 gap-15">
-      <div class="mb-16 sm:mb-0 sm:col-span-3 md:col-span-6 lg:col-span-3">
-        Cavegn Immobilien GmbH<br>
-        Auf der Mauer 7<br>
-        8001 Zürich
-      </div>
-      <div class="sm:col-span-3 md:col-span-6 lg:col-span-3">
+    <div class="grid grid-cols-12 gap-15 items-end md:items-start">
+      <div class="col-span-2 md:col-span-1 pb-15 md:pb-0 md:self-end">
         <a 
-          href="tel:043 537 33 53"
-          class="no-underline hover:underline underline-offset-4">
-          Telefon 043 537 33 53
-        </a><br>
-        <a 
-          href="mailto:magnolia@cavegn-immobilien.ch" 
-          title="E-Mail an magnolia@cavegn-immobilien.ch"
-          class="no-underline hover:underline underline-offset-4">
-          magnolia@cavegn-immobilien.ch
-        </a><br>
-        <a href="https://www.cavegn-immobilien.ch" 
+          href="https://www.cavegn-immobilien.ch"
           target="_blank" 
-          title="Zur Website von Cavegn Immobilien" 
-          rel="noopener noreferrer"
-          class="no-underline hover:underline underline-offset-4">
-          www.cavegn-immobilien.ch
+          title="Zur Website von Cavegn Immobilien"
+          class="text-sage">
+          {{ partial:icons/logo-marketer class="block w-auto h-100 md:h-120" }}
         </a>
       </div>
+      <div class="col-span-10 md:col-span-5 lg:col-span-6">
+        <div class="mb-15 sm:mb-0">
+          <div>
+            <strong>Cavegn Immobilien GmbH</strong><br>
+            Auf der Mauer 7<br>
+            8001 Zürich
+          </div>
+          <div class="mt-5 lg:mt-16">
+            <a 
+              href="tel:043 537 33 53"
+              class="no-underline hover:underline underline-offset-4">
+              Telefon 043 537 33 53
+            </a><br>
+            <a 
+              href="mailto:magnolia@cavegn-immobilien.ch" 
+              title="E-Mail an magnolia@cavegn-immobilien.ch"
+              class="no-underline hover:underline underline-offset-4">
+              magnolia@cavegn-immobilien.ch
+            </a><br>
+            <a href="https://www.cavegn-immobilien.ch" 
+              target="_blank" 
+              title="Zur Website von Cavegn Immobilien" 
+              rel="noopener noreferrer"
+              class="no-underline hover:underline underline-offset-4">
+              www.cavegn-immobilien.ch
+            </a>
+          </div>
+          <div class="flex justify-start items-end gap-x-100 lg:gap-x-[250px] mt-20 md:mt-40 lg:mt-20">
+            <div>
+              Follow&nbsp;us!<br>
+              <a href="https://www.instagram.com/cavegn_immobilien_zh/" 
+                target="_blank" 
+                title="Follow us on Instagram!" 
+                rel="noopener noreferrer"
+                class="block group mt-2">
+                {{ partial:icons/instagram class="md:w-24 h-auto group-hover:rotate-6 transition-transform" }}
+              </a>
+            </div>
+            <div>
+              <a href="/impressum" class="no-underline hover:underline underline-offset-4">Impressum</a><br>
+              <a href="/datenschutz" class="no-underline hover:underline underline-offset-4">Datenschutz</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-12 sm:col-span-10 sm:col-start-3 md:col-span-6 lg:col-span-5 text-black">
+        <div><strong>Ein Projekt von</strong></div>
+        <div class="grid grid-cols-12 gap-15 mt-10 lg:mt-0 lg:gap-30">
+          <div class="col-span-6 self-end">
+            {{ partial:icons/logo-ledermann class="h-auto w-120 md:-ml-18" }}
+            <div class="mt-10">
+              Ledermann Immobilien AG<br>
+              Seefeldstrasse 60<br>
+              CH-8008 Zürich
+            </div>
+          </div>
+          <div class="col-span-6">
+            {{ partial:icons/logo-caa class="h-auto w-140" }}
+            <div class="mt-10">
+              Curzio Ardinghi Architecture GmbH<br>
+              Seefeldstrasse 283 A<br>
+              CH-8008 Zürich
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-span-3 col-start-3 sm:col-span-5 sm:col-start-3 md:col-span-3 lg:col-span-2 lg:mb-15">
-      Follow us!<br>
-      <a href="https://www.instagram.com/cavegn_immobilien_zh/" 
-        target="_blank" 
-        title="Follow us on Instagram!" 
-        rel="noopener noreferrer"
-        class="block group mt-2">
-        {{ partial:icons/instagram class="md:w-24 h-auto group-hover:rotate-6 transition-transform" }}
-      </a>
-    </div>
-    <div class="col-span-3 sm:col-span-5 md:col-span-3 md:col-start-10 lg:col-start-11 lg:mb-20">
-      <a href="/impressum" class="no-underline hover:underline underline-offset-4">Impressum</a><br>
-      <a href="/datenschutz" class="no-underline hover:underline underline-offset-4">Datenschutz</a><br>
-    </div>
-  </div>
   {{ /partial:layout/inner }}
 </footer>
 {{ vite src="resources/js/app.js" }}
