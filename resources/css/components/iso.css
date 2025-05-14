@@ -10,13 +10,16 @@
   fill-rule: evenodd;
 }
 
-.iso-cls-5, .iso-cls-3 {
-  display: none;
+.iso-cls-5, .iso-cls-4 {
   mix-blend-mode: multiply;
 }
 
-.iso-cls-5, .iso-cls-3, .iso-cls-6 {
+.iso-cls-5, .iso-cls-4, .iso-cls-6 {
   fill: #5b7266;
+}
+
+.iso-cls-5 {
+  fill: #d3c6be;
 }
 
 .iso-cls-7 {
@@ -27,7 +30,7 @@
   mix-blend-mode: darken;
 }
 
-.iso-cls-4 {
+.iso-cls-3 {
   fill: #8ca397;
 }
 
@@ -36,16 +39,16 @@
 }
 
 /* State classes */
-.is-active.is-available [class^="iso-cls-5"],
-.is-active.is-available[class^="iso-cls-5"] {
+.is-active.is-available [class^="iso-cls-"],
+.is-active.is-available[class^="iso-cls-"] {
   fill: #5b7266 !important;
-  display: block;
+  opacity: 1 !important;
 }
 
-.is-active.is-taken [class^="iso-cls-5"],
-.is-active.is-taken [class^="iso-cls-5"] {
+.is-active.is-taken [class^="iso-cls-"],
+.is-active.is-taken[class^="iso-cls-"] {
   fill: #646464 !important;
-  display: block;
+  opacity: 1 !important;
 }
 
 [data-iso]:hover {
@@ -62,9 +65,9 @@
 }
 
 .is-up {
-  @apply transform -translate-y-[16%] transition-transform duration-300;
+  @apply transform -translate-y-[20%] transition-transform duration-300;
 }
 
 .is-down {
-  @apply transform translate-y-[16%] transition-transform duration-300;
+  @apply transform translate-y-[20%] transition-transform duration-300;
 }
