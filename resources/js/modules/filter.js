@@ -57,7 +57,6 @@ const Filter = (function() {
         }
       });
       if (attrString.length > 0) {
-        console.log(attrString);
         document.querySelectorAll(selectors.object).forEach(function(item) {
           item.style.display = 'none';
         });
