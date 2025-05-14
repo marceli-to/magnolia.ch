@@ -41,6 +41,7 @@ const Iso = (function() {
     // Event listeners for 'selectors.iso'
     document.querySelectorAll(selectors.iso).forEach(function(iso) {
       iso.addEventListener('mouseover', function() {
+        console.log(iso);
         hightlightRow(iso);
       });
 
@@ -185,4 +186,6 @@ const Iso = (function() {
 })();
 
 // Initialize
-Iso.init();
+document.addEventListener('DOMContentLoaded', () => { 
+  Iso.init();
+});

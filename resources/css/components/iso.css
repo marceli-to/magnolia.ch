@@ -36,14 +36,14 @@
 }
 
 /* State classes */
-.is-active.is-available[class^="iso-cls-"],
-.is-active.is-available[class^="iso-cls-"] {
+.is-active.is-available [class^="iso-cls-5"],
+.is-active.is-available[class^="iso-cls-5"] {
   fill: #5b7266 !important;
   display: block;
 }
 
-.is-active.is-taken [class^="iso-cls-"],
-.is-active.is-taken [class^="iso-cls-"] {
+.is-active.is-taken [class^="iso-cls-5"],
+.is-active.is-taken [class^="iso-cls-5"] {
   fill: #646464 !important;
   display: block;
 }

@@ -21,7 +21,7 @@ p {
 }
 
 strong {
-  @apply font-oakes-bold;
+  @apply font-oakes-bold font-normal;
 }
 
 em {
@@ -46,7 +46,7 @@ sup {
 }
 
 .btn-primary {
-  @apply bg-pine hover:bg-sage text-white px-15 pt-12 pb-10 inline-flex items-center justify-center w-auto transition-all leading-none
+  @apply bg-pine hover:bg-black text-white px-15 pt-12 pb-10 inline-flex items-center justify-center w-auto transition-all leading-none
 }
 
 /* Badge */
