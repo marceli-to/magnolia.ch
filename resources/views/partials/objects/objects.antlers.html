@@ -20,7 +20,13 @@
           {{ partial:components/table/trow filterable="true" number="{{ number }}" state="{{ state }}" rooms="{{ rooms }}" floor="{{ floor }}" building="1" }}
             
           {{ partial:components/table/tcell class="!pr-0" }}
+            {{ if number == 'W01' }}
+              W01*
+            {{ elseif number == 'W02' }}
+              W02**
+            {{ else }}
               {{ number }}
+            {{ /if }}
             {{ /partial:components/table/tcell }}
 
             {{ partial:components/table/tcell class="!pr-5 md:!pr-10" }}
@@ -68,6 +74,33 @@
           {{ /partial:components/table/trow }}
         {{ /objects }}
       {{ /partial:components/table/table }}
+      
+      <table class="w-full text-xxs sm:text-sm mb-20 lg:mb-40 bg-white">
+        <thead>
+          <tr class="bg-sage md:relative md:top-0 z-60 [&>th]:pt-12 [&>th]:pb-10 [&>th]:align-middle [&>th]:leading-none [&>th]:text-white">
+            <th class="text-left w-[8%] sm:w-[10%] pl-5">
+              Einheit
+            </th>
+            <th class="text-left w-[8%] sm:w-[10%] pl-5">
+              Etage
+            </th>
+            <th class="text-left w-[8%] sm:w-[10%] pl-5">
+              Anzahl
+            </th>
+            <th class="text-left w-[8%] sm:w-[10%] pr-5 text-right">
+              Preis
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="pr-5 pt-8 pb-6">Parkplätze</td>
+            <td class="pr-5 pt-8 pb-6">TG</td>
+            <td class="pr-5 pt-8 pb-6">12</td>
+            <td class="pr-5 pt-8 pb-6 text-right">75'000</td>
+          </tr>
+        </tbody>
+      </table>
 
       <table class="text-xs lg:text-sm">
         <tr>
@@ -81,6 +114,17 @@
         <tr>
           <td class="align-top w-8"><sup>3</sup></td>
           <td>in CHF</td>
+        </tr>
+        <tr>
+          <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="align-top w-8">*</td>
+          <td>inklusive Gartenanteil 86.25 m<sup>2</sup> und Hobbyraum 17m<sup>2</sup></td>
+        </tr>
+        <tr>
+          <td class="align-top w-8">**</td>
+          <td>inklusive Gartenanteil 86.25 m<sup>2</sup> und Hobbyraum 17.5m<sup>2</sup></td>
         </tr>
       </table>
 
