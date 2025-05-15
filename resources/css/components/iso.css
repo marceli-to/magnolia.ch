@@ -41,7 +41,7 @@
 /* State classes */
 .is-active.is-available [class^="iso-cls-"],
 .is-active.is-available[class^="iso-cls-"] {
-  fill: #5b7266 !important;
+  @apply fill-sage/60;
   opacity: 1 !important;
 }
 
