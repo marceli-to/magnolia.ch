@@ -21,7 +21,7 @@ const initMap = () => {
         coordinates: [8.576795782295077,47.345146618634324]
       },
       properties: {
-        title: 'magnolia rothfluhstrasse zollikon',
+        title: 'magnolia rotfluhstrasse zollikon',
         description: 'Pfäffikon ZH'
       }
     }]
